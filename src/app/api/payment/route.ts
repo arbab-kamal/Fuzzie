@@ -1,6 +1,6 @@
 import { NextResponse, NextRequest } from "next/server";
 import Stripe from "stripe";
-const Public_url = "https://fuzzie.onrender.com";
+const Public_url = "https://fuzzie-seven.vercel.app";
 export async function GET(req: NextRequest) {
   const stripe = new Stripe(process.env.STRIPE_SECRET!, {
     typescript: true,

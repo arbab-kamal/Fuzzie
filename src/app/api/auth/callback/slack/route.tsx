@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-const Public_url = "https://fuzzie.onrender.com";
+const Public_url = "https://fuzzie-seven.vercel.app";
 export async function GET(req: NextRequest) {
   // Extract the code parameter from the query string
   const code = req.nextUrl.searchParams.get("code");

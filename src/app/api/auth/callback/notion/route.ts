@@ -2,7 +2,7 @@ import axios from "axios";
 import { NextRequest, NextResponse } from "next/server";
 import { Client } from "@notionhq/client";
 
-const Public_url = "https://fuzzie.onrender.com";
+const Public_url = "https://fuzzie-seven.vercel.app";
 
 export async function GET(req: NextRequest) {
   const code = req.nextUrl.searchParams.get("code");
