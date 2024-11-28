@@ -2,7 +2,7 @@ import axios from "axios";
 import { NextResponse, NextRequest } from "next/server";
 import url from "url";
 
-const Public_url = "https://localhost:3000";
+const Public_url = "https://fuzzie.onrender.com";
 
 export async function GET(req: NextRequest) {
   const code = req.nextUrl.searchParams.get("code");

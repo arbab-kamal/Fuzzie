@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-const Public_url = "https://localhost:3000";
+const Public_url = "https://fuzzie.onrender.com";
 export async function GET(req: NextRequest) {
   // Extract the code parameter from the query string
   const code = req.nextUrl.searchParams.get("code");
