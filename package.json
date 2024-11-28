@@ -44,6 +44,7 @@
     "react-hook-form": "^7.51.0",
     "react-resizable-panels": "^2.0.13",
     "reactflow": "^11.10.4",
+    "sharp": "^0.33.5",
     "sonner": "^1.4.3",
     "stripe": "^14.21.0",
     "tailwind-merge": "^2.2.1",
